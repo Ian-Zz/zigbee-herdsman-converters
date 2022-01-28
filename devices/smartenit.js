@@ -39,4 +39,13 @@ module.exports = [
         toZigbee: [],
         exposes: [e.battery(), e.temperature(), e.humidity()],
     },
+    {
+        zigbeeModel: ['ZBMPlug15'],
+        model: '5010Q',
+        vendor: 'Smartenit',
+        escription: ' ZBMPlug15 enables remote control and monitoring of lamps and appliances',
+        fromZigbee: [fz.on_off, fz.metering],
+        toZigbee: [tz.on_off],
+        exposes: [e.switch(), e.power(), e.energy()],
+    },
 ];

@@ -190,6 +190,13 @@ module.exports = [
         ota: ota.ledvance,
     },
     {
+        zigbeeModel: ['BR30 W 10 year'],
+        model: '74453',
+        vendor: 'Sylvania',
+        description: 'Sylvania Osram Lightify Smart Home BR30 flood light bulb',
+        extend: extend.light_onoff_brightness(),
+    },
+    {
         zigbeeModel: ['A19 G2 RGBW'],
         model: '75564',
         vendor: 'Sylvania',
